@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Compras</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Câmaras</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="" method="post">
+        <fieldset>
+            <legend> Identificação </legend>
+            <p>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="Digite seu email." maxlength="50">
+            </p>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" placeholder="Digite sua senha." maxlength="20">
+            </p>
+            <p><a href="Cadastro.html">Não tem um cadastro?Cadastre-se aqui</a></p>
+        </fieldset>
+        <fieldset>
+            <legend> Endereço </legend>
+            <p>
+             <label for="rua">Rua:</label>
+             <input type="text" id="rua" placeholder="Digite o nome da rua." maxlength="200">
+            </p>
+            <p>
+             <label for="numero">Número:</label>
+             <input type="number" id="numero" min="0" max="99999">
+            </p> 
+            <p>
+             <label for="estado">Estado:</label>
+             <select id="estado">
+                <optgroup label="Região Sudeste">
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="ES">Espírito Santo</option>
+                </optgroup>
+                <optgroup label="Região Sul">
+                    <option value="PR">Paraná</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RS">Rio Grande do sul</option>
+                </optgroup>
+                <optgroup label="Região Centro-Oeste">
+                    <option value="GO">Goiás</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="DF">Distrito Federal</option>
+                </optgroup>
+                <optgroup label="Região Nordeste">
+                    <option value="AL">Alagoas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PI">Piauí</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="SE">Sergipe</option>
+                </optgroup>
+                <optgroup label="Região Norte">
+                    <option value="AC">Acre</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="PA">Pará</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="TO">Tocantins</option>
+                </optgroup>
+             </select>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
+</body>
+</html>
